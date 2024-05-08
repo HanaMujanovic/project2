@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+header{
+    grid-column: 1/4;
+    align-items: center;
+}
+
+.slikaidugme{
+    grid-column: 1/4;
+    align-items: center;
+    padding: 50px;
+}
+
+button{
+    margin: 10px;
+    height:40px;
+    width: 100px;
+    background-color:#be123c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #9f1239;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+}
